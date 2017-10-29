@@ -1,0 +1,6 @@
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\bin\Debug\VoiceRecorder.Audio.dll
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\bin\Debug\VoiceRecorder.Audio.pdb
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\bin\Debug\NAudio.dll
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\obj\Debug\VoiceRecorder.Audio.dll
+C:\Users\Ashwin\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Audio\obj\Debug\VoiceRecorder.Audio.pdb

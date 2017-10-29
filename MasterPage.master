@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Learn Center</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.5.2.js" ></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/Molengo_400.font.js"></script>
+<script type="text/javascript" src="js/Expletus_Sans_400.font.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5.js"></script>
+<style type="text/css">.bg, .box2{behavior:url("js/PIE.htc");}</style>
+<![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body id="page1">
+    <form id="form1" runat="server">
+    <div>
+    <div class="body1">
+  <div class="main">
+    <!-- header -->
+    <header>
+      <div class="wrapper">
+        <nav>
+        <asp:Panel ID="Panel1" runat="server">
+          <ul id="menu">
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">ADMIN LOGIN</li>
+            
+            -->
+            
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">
+                HOME</li>
+                -->
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">
+                ABOUT US</li>
+                
+                -->
+            <li ><a href="home.aspx">HOME</a></li>
+            <li ><a href="aboutus.aspx">ABOUT_US</a></li>
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">USER LOGIN</li>
+            -->
+            <li ><a href="userlogin.aspx">USER_LOGIN</a></li>
+            <li ><a href="adminlogin.aspx">ADMIN_LOGIN</a></li>
+            <li ><a href="feedback.aspx"> FEEDBACK </a></li>
+            <li class="end"><a href="contact.aspx">Contact</a></li>
+          </ul>
+</asp:Panel><asp:Panel ID="Panel2" runat="server">
+          <ul id="menu">
+            
+            <li ><a href="regtuser.aspx">REGISTERED_USERS</a></li>
+            <li ><a href="question.aspx">QUESTIONS</a></li>
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">USER LOGIN</li>
+            -->
+            <li ><a href="adminresult.aspx">RESULT</a></li>
+            <li ><a href="adminfdback.aspx">USER'S_FEEDBACK</a></li>
+            <li ><a href="feedback.aspx"> XXX </a></li>
+            <li class="end"><a href="logoutadmin.aspx">LOG_OUT</a></li>
+          </ul>
+          </asp:Panel>
+<asp:Panel ID="Panel3" runat="server">
+<ul id="menu">
+            
+            <li ><a href="regtuser.aspx">AAA</a></li>
+            <li ><a href="question.aspx">bbb</a></li>
+            <!--
+            <li style="color: #FFFFFF; font-size: medium; font-weight: lighter; font-style: normal;">USER LOGIN</li>
+            -->
+            <li ><a href="result.aspx">RESULT</a></li>
+            <li ><a href="feedback.aspx">FEEDBACK</a></li>
+            <li ><a href="contact.aspx">CONTACT</a></li>
+            <li class="end"><a href="logoutadmin.aspx">LOG_OUT</a></li>
+          </ul>
+
+
+
+</asp:Panel>
+        </nav>
+        
+      </div>
+      <!-- content 1 -->
+
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           <div class="wrapper">
+               <h1>
+                   <a href="index.html" id="logo">Learn Center</a></h1>
+           </div>
+           <div id="slogan">
+               We Will Open The World<span>of knowledge for you!</span>
+           </div>
+           <ul class="banners">
+               <li><a href="#">
+                   <img src="images/banner1.jpg" alt=""></a></li>
+               <li><a href="#">
+                   <img src="images/banner2.jpg" alt=""></a></li>
+               <li><a href="#">
+                   <img src="images/banner3.jpg" alt=""></a></li>
+           </ul>
+
+
+        </asp:ContentPlaceHolder>
+    </header>
+    <!-- / header -->
+  </div>
+</div>
+<div class="body2">
+  <!-- content 2 -->
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <asp:Image ID="Image1" runat="server" Height="267px" 
+            ImageUrl="~/images/students2.jpeg" Width="1424px" />
+    
+    </asp:ContentPlaceHolder>
+</div>
+<script type="text/javascript">    Cufon.now();</script>
+<div align=center></div>
+    
+    
+       
+    </div>
+    </form>
+</body>
+</html>

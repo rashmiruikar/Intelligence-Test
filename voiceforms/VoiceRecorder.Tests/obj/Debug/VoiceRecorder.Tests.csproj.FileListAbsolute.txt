@@ -1,0 +1,12 @@
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\VoiceRecorder.Tests.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\VoiceRecorder.Tests.pdb
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\NAudio.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\nunit.framework.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\nunit.mocks.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\pnunit.framework.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\VoiceRecorder.Audio.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\VoiceRecorder.Audio.pdb
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\bin\Debug\nunit.framework.xml
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\obj\Debug\VoiceRecorder.Tests.dll
+C:\Users\rashmi\Desktop\voicerecorder_f652f98eb1ff\VoiceRecorder.Tests\obj\Debug\VoiceRecorder.Tests.pdb
